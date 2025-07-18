@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عربة التسوق - متجر الواحة الخضراء</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>متجر الواحة الخضراء</h1>
+        <nav>
+            <a href="products.html">المنتجات</a>
+            <a href="cart.html">السلة (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main class="cart-page-main">
+        <h2>عربة التسوق</h2>
+        <div id="cart-items-container">
+            </div>
+
+        <div class="cart-summary">
+            <p>إجمالي عدد النباتات في العربة: <span id="total-plants-count">0</span></p>
+            <p>التكلفة الإجمالية: $<span id="total-cart-cost">0.00</span></p>
+        </div>
+
+        <div class="cart-actions">
+            <button id="checkout-btn">الخروج</button>
+            <a href="products.html" class="continue-shopping-btn">متابعة التسوق</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 متجر الواحة الخضراء. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/cart.js"></script>
+</body>
+</html>
