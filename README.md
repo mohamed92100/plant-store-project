@@ -12,11 +12,11 @@
 - حفظ حالة السلة باستخدام `localStorage` حتى بعد إغلاق المتصفح.
 
 ## كيفية التشغيل:
-1. استنسخ المستودع: `git clone https://github.com/YOUR_USERNAME/plant-store-project.git`
+1. استنسخ المستودع: `git clone https://github.com/mohamed92100/plant-store-project.git`
 2. انتقل إلى مجلد المشروع: `cd plant-store-project`
 3. (اختياري، لتثبيت Redux محليًا): `npm install`
 4. افتح `index.html` في متصفح الويب الخاص بك.
 
 ## الروابط:
-- مستودع GitHub: `https://github.com/YOUR_USERNAME/plant-store-project`
+- مستودع GitHub: `https://github.com/mohamed92100/plant-store-project`
 - GitHub Pages: `https://YOUR_USERNAME.github.io/plant-store-project`
